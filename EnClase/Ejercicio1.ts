@@ -1,6 +1,5 @@
-const nombres:string[] = ["Pablo","Gonza","Alex","Raul"];
-
 //ToUpperCase
+import { nombres } from "../Types.ts";
 
 const nombresM:string[] = nombres.map((elem:string)=> {
     return elem.toUpperCase();
